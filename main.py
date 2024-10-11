@@ -11,7 +11,7 @@ def get_book_text(path):
 
 #I need to split the entire text and then count each individual word once i have the number i need to 
 #return it as a string and print it
-def count_words(text)
+def count_words(text):
    word = text.split()
    return len(word)
 
